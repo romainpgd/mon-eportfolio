@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio | Romain Pigeaud - BUT Sciences des données</title> <!--Important pour le referencement-->
+		<meta charset="utf-8">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="Bootstrap_CSS/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	</head>
+	<body>
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	
+	<div class="container-fluid">
+	  <!-- **************************************Début de la navbar************************************* -->
+	  <nav id="menu" class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+	  <div class="container-fluid">
+		<a class="navbar-brand" href="index.html"></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="Presentation.html">Présentation</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="Parcours.html">Mon parcours</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="Projets.html">Mes projets</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="Contact.html">Me contacter</a>
+			</li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	
+	<!-- titre de la page -->
+	<div class="titre-projets">
+		<h1>Mes projets</h1>
+	</div>
+	
+	<!-- création accordéon avec images et description des projets -->
+	<div class="accordion accordion-flush" id="accordionFlushExample">
+	  <div class="accordion-item">
+		<h2 class="accordion-header">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+			Concours Dataviz
+		  </button>
+		</h2>
+		<div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+		  <div class="accordion-body">Vers la fin de la première année de BUT, un concours de reporting a été organisé à l'IUT. L'objectif était de réaliser sur Power Bi une datavisualisation de données météorologiques de Météo France. Notre équipe a choisi d'étudier les effets du réchauffement climatique dans la Somme :</div>
+		  <img id="image-projet" src="Images/projet-reporting.png" alt="Reporting de données météorologiques sur Power Bi">
+		</div>
+	  </div>
+	  <div class="accordion-item">
+		<h2 class="accordion-header">
+		  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+			Prévision d'une série temporelle
+		  </button>
+		</h2>
+		<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+		  <div class="accordion-body">Le but de ce projet était de comparer différentes techniques de prévisions de données temporelles sur la production d'électricité par le coke de pétrole aux États-Unis, puis de les comparer à des données réelles afin de voir laquelle avait le mieux prédit la série. Les techniques utilisées étaient : la prévision par estimation de tendance + coefficients saisonniers, la méthode de Holt-Winters et la méthode ARMA :</div>
+		  <img id="image-projet" src="Images/projet-serie-temporelles.png" alt="Graphique représentant différentes techniques de prévision de données temporelles.">
+		</div>
+	  </div>
+	</div>
+	
+	
+	</body>
+
+</html>
